@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autoarmorenchant",
+  "version": "${version}",
+  "name": "AutoArmorEnchant",
+  "description": "Open an anvil and it automatically applies the enchanted books in your inventory to your armor.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.autoarmor.AutoArmorEnchantClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
